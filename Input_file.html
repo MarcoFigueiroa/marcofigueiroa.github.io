@@ -49,34 +49,26 @@
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
 	    <div class="row align-items-center g-lg-5 py-5">
 	      <div class="col-lg-7 text-center text-lg-start">
-	        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Register</h1>
-	        <p class="col-lg-10 fs-4">Enter your data in the following fields.</p>
+	        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Pipeline data</h1>
+	        <p class="col-lg-10 fs-4">Add Pipetally worksheet with inspection data and some global dimensions of the pipeline.</p>
 	      </div>
 	      <div class="col-md-10 mx-auto col-lg-5">
 	        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary row g-3">
-	        <div class="col-md-6">
-	        	<input type='text' class="form-control" id="first_name" placeholder="First Name"></input>
-	        </div>
-	        <div class="col-md-6">
-				<input type='text' class="form-control" id="last_name" placeholder="Last Name"></input>
+	        <div class="mb-3">
+			  <label for="file_name" class="form-label">Pipetally file</label>
+			  <input type='file' class="form-control" id="file_name" placeholder="Pipetally file"></input>
+			</div>
+	        <div class="col-12">
+				<input type='text' class="form-control" id="pipeline_name" placeholder="Pipeline/section name"></input>
 	        </div>
 	        <div class="col-12">
-	        	<input type="e-mail" class="form-control" id="input_email" placeholder="E-mail"></input>
-	        </div>
-	        <div class="col-md-6">
-	        	<input type='text' class="form-control" id="organization" placeholder="Organization"></input>
-	        </div>
-	        <div class="col-md-6">
-				<input type='text' class="form-control" id="role" placeholder="Role"></input>
+	        	<input type='number' class="form-control" id="wall_thickness" placeholder="Wall thickness"></input>
 	        </div>
 	        <div class="col-12">
-				<input type="password" class="form-control" id="inputPassword1" placeholder="Password">
-			  </div>
-			  <div class="col-12">
-				<input type="password" class="form-control" id="inputPassword2" placeholder="Repeat Password">
-			  </div>
-			  <div class="col-12">
-				<button type="submit" class="btn btn-primary">Register</button>
+				<input type='number' class="form-control" id="outside_diameter" placeholder="Outside diameter"></input>
+	        </div>
+			  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+				<button type="submit" class="btn btn-primary">Next</button>
 			  </div>
 	        </form>
 	      </div>
