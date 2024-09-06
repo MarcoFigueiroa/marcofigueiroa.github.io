@@ -1,6 +1,6 @@
 /* Header Image */
 .header-image {
-    background-image: url('./image/logo.png');
+    background-image: url('../image/logo.png');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -49,7 +49,7 @@ footer .footer-logos {
 }
 
 footer .logos img {
-    max-width: 100px;
+    max-width: 150px;
     margin: 5px;
     
 }
