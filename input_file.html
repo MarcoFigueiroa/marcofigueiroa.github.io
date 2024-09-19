@@ -50,29 +50,29 @@
 	    <div class="row align-items-center g-lg-5 py-5">
 	      <div class="col-lg-7 text-center text-lg-start">
 	        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Pipeline data</h1>
-	        <p class="col-lg-10 fs-4">Add Pipetally worksheet with inspection data and some global dimensions of the pipeline.</p>
+	        <p class="col-lg-10 fs-4">Add Pipe tally worksheet with inspection data and some global dimensions of the pipeline.</p>
 	      </div>
 	      <div class="col-md-10 mx-auto col-lg-5">
 	        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary row g-3">
 	        <div class="mb-3">
-			  <label for="file_name" class="form-label">Pipetally file</label>
+			  <label for="file_name" class="form-label">Pipe tally file</label>
 			  <input type='file' class="form-control" id="file_name" placeholder="Pipetally file"></input>
 			</div>
 	        <div class="col-12">
 				<input type='text' class="form-control" id="pipeline_name" placeholder="Pipeline/section name"></input>
 	        </div>
 	        <div class="col-12">
-	        	<input type='number' class="form-control" id="wall_thickness" placeholder="Wall thickness"></input>
+	        	<input type='number' class="form-control" id="wall_thickness" placeholder="Wall thickness (mm)"  step="0.01" min="0" max="1000"/>
 	        </div>
 	        <div class="col-12">
-				<input type='number' class="form-control" id="outside_diameter" placeholder="Outside diameter"></input>
+				<input type='number' class="form-control" id="outside_diameter" placeholder="Outside diameter (mm)"  step="0.01" min="0" max="1000"/>
 	        </div>
 
 
 
 			<div class="btn-group">
 				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-					Steel
+					Steel grade
 				</button>
 				<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="#">API 5L X42</a></li>
