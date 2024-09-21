@@ -50,7 +50,7 @@
 	    <div class="row align-items-center g-lg-5 py-5">
 	      <div class="col-lg-7 text-center text-lg-start">
 	        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Select anomalies</h1>
-	        <p class="col-lg-10 fs-4">Select which comments are related to anomalies to be assessed.</p>
+	        <p class="col-lg-10 fs-4">Select which comments from the pipe tally are related to anomalies to be assessed.</p>
 	      </div>
 	      <div class="col-md-10 mx-auto col-lg-5">
 	      	        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary row g-3">
@@ -58,8 +58,12 @@
 						<div class="form-check">
 							<div class="card">
 							  <div class="card-body">
+								<div class="mb-3">
+									<label for="file_name" class="form-label">Pipe tally file</label>
+										<input type='text' class="form-control" id="file_name" placeholder="Pipe_tally.xlsx" disabled></input>
+								</div>
 							    <table class="table table-striped" >
-									<tr><th>Select</th><th>Comments</th></tr>
+									<tr><th>Select</th><th>Comments column</th></tr>
 									<tr><td>
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
